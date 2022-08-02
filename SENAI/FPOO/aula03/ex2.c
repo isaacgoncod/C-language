@@ -2,6 +2,12 @@
 #include<string.h>
 #include<locale.h>//biblioteca de acentos
 
+/* Desenvolva um programa que leia a velocidade de um carro (km/h)
+ e a distância a ser percorrida (km) por ele.
+  Calcule e apresente na tela, quanto tempo (horas)
+ será necessário para o carro percorrer a distância informada.
+*/
+
 int main(){
 	setlocale(LC_ALL,"");//codigo para acessar a biblioteca
 	

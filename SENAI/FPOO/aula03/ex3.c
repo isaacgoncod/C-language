@@ -2,6 +2,11 @@
 #include<locale.h>
 #include<string.h>
 
+/* Desenvolva um programa que leia o nome e o salário de uma pessoa,
+ depois leia o valor do índice percentual (%) de reajuste do salário. Calcule e apresente na tela,
+  o valor do novo salário e o nome da pessoa.
+*/
+
  void main () {
 	setlocale(LC_ALL, "Portuguese");
 	
@@ -17,7 +22,7 @@
 	scanf("%d", &in);
 	fflush(stdin); 
 	
-	nsal = (float) in/100 * sal + sal;
-	printf("O valor do novo salário com reajuste de %s será de : %.2f Reais ", nome, nsal);
+	nsal = (float) sal + sal * in/100;
+	printf("O valor do novo salário com reajuste(%%) de %s será de : %.2f Reais ", nome, nsal);
 	
 }
