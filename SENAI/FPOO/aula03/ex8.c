@@ -11,14 +11,5 @@
 void main() {
 	setlocale(LC_ALL, "Portuguese");
 	
-	float r, h, a, v, c;
 	
-	printf("Valor do raio(cm) : ");
-	scanf("%.2f", &r);
-	fflush(stdin);
-	
-	printf("Valor da altura(cm) : ");
-	scanf("%.2f", &h);
-	
-	printf("%f", a);
 }

@@ -3,7 +3,7 @@
 #include<string.h>
 
  void main () {
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL, "Portuguese");
 	  
 	char nome [10];
 	 
