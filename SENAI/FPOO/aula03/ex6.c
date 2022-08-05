@@ -12,12 +12,11 @@
  void main () {
 	setlocale(LC_ALL, "Portuguese");
 	
-	float v, d, t;
+	float v = 900, d, t;
 	
 	printf("Qual a distância(km) percorrida pelo avião ? : ");
 	scanf("%f", &d);
 	
-	v = 900;
 	t = d / v;
 	
 	printf("O avião irá demorar %.2f Hora(s) para percorrer o trajeto.", t);
