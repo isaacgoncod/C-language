@@ -17,11 +17,11 @@ void main() {
 	int eleitores, votos;
 	float part;
 	
-	printf("Nome de sua cidade : \n");
+	printf("Nome de sua cidade : ");
 	gets(cidade);
-	printf("Número total de eleitores : \n");
+	printf("Número total de eleitores : ");
 	scanf("%d", &eleitores);
-	printf("Votos apurados : \n");
+	printf("Votos apurados : ");
 	scanf("%d", &votos);
 	
 	 part = (float) votos / eleitores * 100;
