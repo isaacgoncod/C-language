@@ -1,10 +1,4 @@
 # SENAI
 ## Tarefas
-- [ ]
-- [ ]
-- [ ] 
-***
-# Projetos
-*
-*
-*
+- [ ] Assistir filmes : O jogo da imitação, Piratas do Vale do Cilício;
+
