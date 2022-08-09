@@ -9,6 +9,6 @@ void main(){
 	printf("Digíte um número qualquer : ");
 	scanf("%d", &n1);
 	
-	printf("O número que você digítou é %s",  ?"ÍMPAR" : "PAR");
+	printf("O número que você digítou é %s",(n1 % 2==0)  ?"PAR" : "ÍMPAR");
 	
 }
