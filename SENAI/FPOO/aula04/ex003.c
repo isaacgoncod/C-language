@@ -26,13 +26,13 @@ void main() {
 	if(sal <= 1212.00){
 		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc1, reajuste1);
 	}
-	else if(sal >= 1212.01)  <= 2427.35){
+	else if(sal >= 1212.01 || sal <= 2427.35){
 		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc2, reajuste2);
 	}
-	else if(sal >= 2427.36 <= 3641.03){
+	else if(sal >= 2427.36 || sal <= 3641.03){
 		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc3, reajuste3);
 	}
-	else if(sal >= 3641.04 <= 7087.22){
+	else if(sal >= 3641.04 || sal <= 7087.22){
 		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc4, reajuste4);
 	}
 	else if(sal > 7087.22){
