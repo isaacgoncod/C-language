@@ -14,13 +14,14 @@ void main() {
 	printf("Digíte o valor de c : ");	
 	scanf("%f", &ladoc);
 	
-	if(ladoa == ladob == ladoc){
+	if(ladoa == ladob && ladoa == ladoc){
 		printf("Todos os lados são iguais, ou seja, o triângulo é EQUILÁTERO.");
-	}else if(ladob == ladoc){
-		printf("Todos os lados são iguais, ou seja, o triângulo é EQUILÁTERO.");
-	}else if(ladoc != ladoa){
-		printf("Somente dois lados são iguais, ou seja, o triângulo é ESCALENO.");
-	}else{
-		printf("\nAcabou");
+	}
+	else if(ladoa == ladob || ladoa == ladoc || ladob == ladoc ){
+		printf("Somente dois lados são iguais, ou seja, o triângulo é ISÓSCELES.");
+	}
+	else{
+		printf("Todos os lados são diferentes, ou seja, o triângulo é ESCALENO.");
+		
 	}
 }
