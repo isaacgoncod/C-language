@@ -1,45 +1,43 @@
 #include <stdio.h>
 #include <locale.h>
-#include <string.h>
 
 void main() {
 	setlocale(LC_ALL, "Portuguese");
 	
-	float sal, desc1, desc2, desc3, desc4;
-	float reajuste1, reajuste2, reajuste3, reajuste4;
+	float sal, desc, reajuste; 
+	
 	
 	printf("Digíte o valor de seu salário : R$ ");
 	scanf("%f", &sal);
 	
-	desc1 = sal * 7.5 / 100;
-	reajuste1 = sal - desc1;
-	
-	desc2 = sal * 9 / 100;
-	reajuste2 = sal - desc2;
-	
-	desc3 = sal * 12 / 100;
-	reajuste3 = sal - desc3;
-	
-	desc4 = sal * 14 / 100;
-	reajuste4 = sal - desc4;
 	
 	if(sal <= 1212.00){
-		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc1, reajuste1);
+		desc = sal * 7.5 / 100;
+		reajuste = sal - desc;
+		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc, reajuste);
 	}
-	else if(sal >= 1212.01 || sal <= 2427.35){
-		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc2, reajuste2);
+	else if(sal >= 1212.01 && sal <= 2427.35){
+		desc = sal * 9 / 100;
+		reajuste = sal - desc;
+		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc, reajuste);
 	}
-	else if(sal >= 2427.36 || sal <= 3641.03){
-		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc3, reajuste3);
+	else if(sal >= 2427.36 && sal <= 3641.03){
+		desc = sal * 12 / 100;
+		reajuste = sal - desc;
+		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc, reajuste);
 	}
-	else if(sal >= 3641.04 || sal <= 7087.22){
-		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc4, reajuste4);
+	else if(sal >= 3641.04 && sal <= 7087.22){
+		desc = sal * 14 / 100;
+		reajuste = sal - desc;
+		printf("Seu desconto será de R$ %.2f e seu salário final de R$ %.2f", desc, reajuste);
 	}
-	else if(sal > 7087.22){
-	printf("Se seu salário ultrapasssar R$ 7087,22.\n Terá o teto máximo de desconto de 14%%, ou seja,\n seu salário com desconto será de R$ %.2f",desc4, reajuste4);
+	else if(sal >= 7087.23){
+		desc = sal * 14 / 100;
+		reajuste = sal - desc;
+	    printf("Se seu salário ultrapasssar R$ 7087,22.\n Terá o teto máximo de desconto de (R$ %.2f)14%%, ou seja,\n seu salário com desconto será de R$ %.2f", desc, reajuste);
 	}
 	else{
-	printf("\nObrigado.");		
+		printf("\nObrigado.");		
 	}
 }
 

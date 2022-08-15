@@ -1,17 +1,16 @@
 #include <stdio.h>
 #include <locale.h>
-#include <string.h>
 
 void main() {
 	setlocale(LC_ALL, "Portuguese");
 	
 	float ladoa, ladob, ladoc;
 	
-	printf("Digíte o valor de a : ");
+	printf("Digíte o valor do primeiro lado : ");
 	scanf("%f", &ladoa);
-	printf("Digíte o valor de b : ");
+	printf("Digíte o valor do segundo lado : ");
 	scanf("%f", &ladob);
-	printf("Digíte o valor de c : ");	
+	printf("Digíte o valor do terceiro lado : ");	
 	scanf("%f", &ladoc);
 	
 	if(ladoa == ladob && ladoa == ladoc){

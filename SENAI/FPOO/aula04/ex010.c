@@ -14,11 +14,14 @@ void main() {
 	scanf("%f", &nota3);
 	
 	media = (nota1 + nota2 + nota3) / 3;
+	printf("-------------- RESULTADOS ---------------\n");
 	
 	if(media >= 6){
-		printf("APROVADO", media);
+		printf("\n\tMédia de %.2f\n\n \tAPROVADO\n", media);
 	}else if(media < 6 && media >=4){
-		printf("RECUPERAÇÃO", media);
-	}else if(media < 4 )
-		printf("REPROVADO", media);
+		printf("\n\tMédia de %.2f\n\n \tRECUPERAÇÃO\n", media);
+	}else{
+		printf("\n\tMédia de %.2f\n\n \tREPROVADO\n", media);
+	}
+	printf("------------------------------------------");
 }
