@@ -12,7 +12,12 @@ void main(){
 	scanf("%d", &num2);
 	
 	for(i = num1; i <= num2; i++){
+		if(i % 2==0){
 		total = total +  i ;
+		}
 	}
 		printf("%d", total);
 }
+	
+
+
