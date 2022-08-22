@@ -4,14 +4,16 @@
 void main(){
 	setlocale(LC_ALL, "Portuguese");  
 	
-	int i, num;
+	int i, num = -1;
 	
-	printf("Digíte um número : ");
-	scanf("%d", &num);
-	
+	while(num < 0 || num > 10){
+		
+		printf("Digíte um número de 0 a 10 : ");
+		scanf("%d", &num);
+}
 	for(i = 0; i <= 10; i++){
 		printf("%d x %d = %d\n", num, i, (num * i));
-	}
+}
 	
 	
 	

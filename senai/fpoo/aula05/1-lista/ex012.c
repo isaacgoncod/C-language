@@ -4,25 +4,19 @@ int main(){
 	//Configurações e variáveis
 	setlocale(LC_ALL,"");
 	
-	int i, num, men, man;
+	int i, num, maiornum = 0;
 	
-	for(i =1; i <= 10; i++){
-		printf("\nDigíte um número : ");
-		scanf("%d", &num);
+	for(i = 0; i < 10; i++){
+		num = -1;
 		
-		if(num == 1){
-			man = num;
+		while(num < 0 || num > 32767){
+			printf("Digíte o %dº número : ", i + 1);
+			scanf("%d", &num);
 		}
-		if(num > man){
-			man = num;
-		}
-		if(num == 0){
-			men = num;
-		}
-		if(num < men){
-			men = num;
-		}	
+//		algoritmo maior número
+		if(num > maiornum) maiornum = num;
 	}
-	printf("\nO maior número digítado foi : %d ", man);
-	printf("\nO menor número digítado foi : %d ", men);
+	
+	printf("\nO maior número digítado foi : %d ", maiornum
+	);
 }

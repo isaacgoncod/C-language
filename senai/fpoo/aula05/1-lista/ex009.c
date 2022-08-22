@@ -4,15 +4,15 @@
 void main(){
 	setlocale(LC_ALL, "Portuguese");
 
-	int i, num1, total = 0;
+	int i, num , total = 0;
 	
-	
-	for(i = 1; i <= 15; i++){
-	printf("Digíte um número : ");
-	scanf("%d", &num1);
-		
-		total = total + num1;
-		
+	for(i = 0; i < 15; i++){
+		num = -1;
+		while(num < 1 || num > 34567){
+			printf("Digíte %dº número : ", i + 1);
+			scanf("%d", &num);
+}
+		total += num;
 	}
 		printf("%d", total);
 }

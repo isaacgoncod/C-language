@@ -6,7 +6,7 @@ void main(){
 	
 	float peso, exc, multa;
 	
-	printf("Digíte quantos kg de peixe você pescou hoje : ");
+	printf("Digíte quantos kg de peixe você pescou hoje : (kg) ");
 	scanf("%f", &peso);
 	
 	exc = peso - 50;

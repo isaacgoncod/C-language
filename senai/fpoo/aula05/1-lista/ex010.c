@@ -6,10 +6,9 @@ void main(){
 	
 	int i;
 	
-	for(i = 11; i <= 250; i++){
-		if(i % 2==0){
-		printf("%d, ", i);
-		}
+	for(i = 11; i < 250; i++){
+		if(i % 2 == 0) printf(" %d,", i);
+				
 	}
 		
 	

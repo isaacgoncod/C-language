@@ -4,11 +4,9 @@
 void main(){
 	setlocale(LC_ALL, "Portuguese");
 	
-	int i = 200;
+	int i;
 	
-	while(i >= 1){
-	
+	for(i = 200; i >= 0; i--){
 		printf("%d\n", i);
-		i--;
 	}
 }
