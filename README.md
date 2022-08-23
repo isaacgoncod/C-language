@@ -1,4 +1,5 @@
-# SENAI
-## Tarefas 08/08/2022
-- [ ] Assistir filmes : O jogo da imitação, Piratas do Vale do Cilício;
+# Repositório de programas em linguagem C
+
+- Estou **aprendendo** a programar em C
+- Alguns esercícios básicos de *lógica* de programação
 
