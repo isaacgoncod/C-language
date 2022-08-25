@@ -11,21 +11,24 @@ int main(){
 		
 		printf("Digíte o %dº valor : ", i + 1);
 		scanf("%d", &nums[i]);	
-	}
-	
-	for(i = 0; i < 6; i++ ){
-		for(j = 0 ; j < 6; j++){
+		j = i;
 			if (nums[i] > nums[j]){
 				 aux = nums[i];
 				nums[i] = nums[j];
 				nums[j] = aux;
 			}
-		}
+		j++;
 	}
+//		for(j = 0 ; j < 6; j++){
+//	
+//	for(i = 0; i < 6; i++ ){
+//			}
+//		}
+//	}
 		
 	
-	for(j = 0; j < 6; j++){
-		printf("{%d}", nums[j]);
+	for(i = 0; i < 6; i++){
+		printf("{%d}", nums[i]);
 	}
 
 }

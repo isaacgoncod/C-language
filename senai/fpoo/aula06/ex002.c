@@ -19,10 +19,10 @@ void main(){
 			contImpar++;
 		}		
 	}	
-			printf("A soma e média dos valores Impares declarados é de %d e %d\n", somaImpar, (somaImpar / contImpar));
-			printf("O total de números Impares é de %d\n",contImpar );
 			printf("A soma e média dos valores Pares declarados é de %d e %d\n", somaPar, (somaPar / contPar));
 			printf("O total de números Pares é de %d\n", contPar );
+			printf("A soma e média dos valores Impares declarados é de %d e %d\n", somaImpar, (somaImpar / contImpar));
+			printf("O total de números Impares é de %d\n",contImpar );
 	
 	
 	
