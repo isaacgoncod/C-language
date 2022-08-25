@@ -6,14 +6,14 @@ void main(){
 	
 	int i, nums[6];
 	
-	for(i = 0; i < 6; i++){
-		printf("Digíte os valores : ");
+	for(i = 1; i < 7; i++){
+		printf("Digíte o %dº valor : ", i);
 		scanf("%d", &nums[i]);
 	}
-	for(i = 5; i >= 0; i--){
-		printf("{%d}\n",nums[i]);
+	for(i = 5; i >= 0; i--) printf("{%d}\n",nums[i]);
+	
 		
-	}
+	
 	
 }
 
