@@ -4,8 +4,6 @@
 void main () {
 	setlocale(LC_ALL, "Portuguese");
 		
-			
-		
-		
-		
+		int quantidade, i = 1;
+
 }

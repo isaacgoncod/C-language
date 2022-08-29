@@ -5,9 +5,9 @@ void main () {
 	setlocale(LC_ALL, "Portuguese");
 		
 		int quantidade, i = 1;
-		float soma = 0, preco = 0.18;
+		float soma = 0, preco = 1.99;
 		
-		printf("Digíte a quantidade de pães : ");
+		printf("Digíte a quantidade de produtos comprados : ");
 		scanf("%d", &quantidade);
 		
 		while(i <= quantidade){
