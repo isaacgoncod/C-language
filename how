@@ -1,0 +1,326 @@
+[33mcommit 5d29e40bf2faafa5e102886fe44b71ef6346b200[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: isaacgoncod <isaacgoncod@gmail.com>
+Date:   Mon Aug 29 11:20:30 2022 -0300
+
+    lista aula006
+
+[33mcommit a07f3e67b5528b49741af566c44f90d433ac719e[m
+Author: isaacgoncod <isaacgoncod@gmail.com>
+Date:   Sun Aug 28 22:39:27 2022 -0300
+
+    lista 2
+
+[33mcommit 9d73a09d7e97870aa19ba21cfb4240afbfab9dc1[m
+Author: isaacgoncod <isaacgoncod@gmail.com>
+Date:   Thu Aug 25 11:05:05 2022 -0300
+
+    ex002 e ex003
+
+[33mcommit 7c16ec1486992003bd8fd48bdea7cfaa457d6cf2[m
+Author: isaacgoncod <isaacgoncod@gmail.com>
+Date:   Thu Aug 25 08:13:31 2022 -0300
+
+    add fpoo
+
+[33mcommit 0dd69d9a4c8eb9fceb285f291e3676f3e9b74bbf[m
+Author: isaacgoncod <isaacgoncod@gmail.com>
+Date:   Wed Aug 24 11:22:43 2022 -0300
+
+    presencial
+
+[33mcommit 01861912c18649c5096362e9872bec901869c1e7[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 23 09:42:35 2022 -0300
+
+    Update README.md
+
+[33mcommit 36f58b2462df61263f78b346e44685f846c41149[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 22 11:22:34 2022 -0300
+
+    presencial
+
+[33mcommit 68ad8498f6e7a04e8b9811f36e06a061ca36d04f[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Sun Aug 21 22:01:20 2022 -0300
+
+    casa
+
+[33mcommit d45ac068e05ffa49bb23eb68a23129a2aea0c8d4[m
+Merge: 162829c 558be53
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 19 16:36:40 2022 -0300
+
+    Merge branch 'main' of https://github.com/isaacgoncod/C-Language
+
+[33mcommit 162829c0f4183362d4a0e8198aee5832892f37ab[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 19 16:36:35 2022 -0300
+
+    casa
+
+[33mcommit 558be537af4156ef6fc50643ada7b36e652ab35b[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 19 11:17:25 2022 -0300
+
+    presencial
+
+[33mcommit df549fbe3e11e533a4a4c8dbca0a94168fb27dbf[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Thu Aug 18 11:19:06 2022 -0300
+
+    presencial
+
+[33mcommit 432b1b6e09d33d67ea09c0c892a5ff4bb7293bd8[m
+Merge: d885ff1 067c146
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Thu Aug 18 07:34:25 2022 -0300
+
+    Merge branch 'main' of https://github.com/isaacgoncod/C-Language
+
+[33mcommit d885ff1f14a1d68000e9be53bc3562558c98d5bc[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Thu Aug 18 07:34:22 2022 -0300
+
+    presencial
+
+[33mcommit 067c146e863fff7d6aa417205330f66ff7363d6c[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 17 23:03:11 2022 -0300
+
+    casa
+
+[33mcommit a338daa168d3815482533aac1f51974b687af495[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 17 23:01:12 2022 -0300
+
+    casa
+
+[33mcommit b09025f3deffd573f3705a373c0acd6d69754d9b[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 17 22:44:59 2022 -0300
+
+    Delete SENAI/FPOO directory
+
+[33mcommit 8dfb9243add8c18d028cdf35fabd66d770c8b856[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 17 22:38:51 2022 -0300
+
+    casa
+
+[33mcommit 9eee16d929939e70f2dc0110e48c0b67cbc5160a[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 17 11:21:21 2022 -0300
+
+    presencial
+
+[33mcommit 87119aedf07cd3018b3485a46562c9060d197e61[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 16 22:47:06 2022 -0300
+
+    casa
+
+[33mcommit 1511bf90cc8db1c92a0fe22d1b02a8bdebac1f0e[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 16 11:19:27 2022 -0300
+
+    presencial
+
+[33mcommit 3c93b43fb0427a048bb0807e3bde81a3af7bf5e5[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 15 11:23:33 2022 -0300
+
+    presencial
+
+[33mcommit 7619b8286fc656bf4049c7b68df49954fa60a0e4[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Sun Aug 14 22:13:15 2022 -0300
+
+    casa
+
+[33mcommit c37ae9344e1e9a5e578fc4ff5a0ea9e378161e4c[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 12 11:22:36 2022 -0300
+
+    presencial
+
+[33mcommit 28cbb8abddc300f3cd93159ceb997c7c9bf2eb03[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 12 10:54:45 2022 -0300
+
+    presencial
+
+[33mcommit 0b051160aa8e2eeb134de7808e8ece625b6b08cc[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 12 09:54:12 2022 -0300
+
+    presencial
+
+[33mcommit 61eff0e796593ed2379f190d7efbe0f44b2bc791[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Thu Aug 11 22:14:22 2022 -0300
+
+    casa
+
+[33mcommit 85d67b7cbedbba6ae04d558267668d0cbd01c34a[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Thu Aug 11 11:25:32 2022 -0300
+
+    presencial
+
+[33mcommit 0c5da366197d3abfcde4d16d21d9c8d8c02dd7bf[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 10 23:27:24 2022 -0300
+
+    casa
+
+[33mcommit 4cec1cdc17179a67b3ab67df8bb86f14ec46bcef[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 10 11:24:25 2022 -0300
+
+    presencial
+
+[33mcommit 16af2e9f87f04132565a4684f9b4ce31d5c87a78[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 9 11:18:14 2022 -0300
+
+    presencial
+
+[33mcommit e7b8e03af1789e2acb1705320a3bd42add4b9962[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 9 11:17:54 2022 -0300
+
+    presencial
+
+[33mcommit 66f239d986df5d98b6e3fd0dc989f0cdf6ac774f[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 9 07:34:39 2022 -0300
+
+    presencial
+
+[33mcommit 10df9184146a79185fc46902d423715c09381740[m
+Merge: 1c29487 5e5a122
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 8 22:12:35 2022 -0300
+
+    Merge branch 'main' of https://github.com/isaacgoncod/C-Language
+
+[33mcommit 1c29487b2eb3c69d59535e9a695c181cbe9deada[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 8 22:12:23 2022 -0300
+
+    casa
+
+[33mcommit 5e5a1220010b59fabeb2e8252db092a3ce2a3fce[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 8 07:45:11 2022 -0300
+
+    Update README.md
+
+[33mcommit 9ec318871e4e2e7019e6c91cf15a9ab41e02e9eb[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 8 07:44:28 2022 -0300
+
+    Update README.md
+
+[33mcommit ad146af05bd01f6e3bf19fcdb1bbc5caedd930cb[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 8 07:42:36 2022 -0300
+
+    Update README.md
+
+[33mcommit 802375b7e1bdc96ab67e62e7b31a5816d007835c[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Sun Aug 7 18:37:07 2022 -0300
+
+    casa
+
+[33mcommit ffccd970505fd3d821252626195731542d141422[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 5 11:20:18 2022 -0300
+
+    presencial
+
+[33mcommit f9099da865e9b47edb5f08d53a533b6dd25a4edd[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Aug 5 11:19:34 2022 -0300
+
+    presencial
+
+[33mcommit 6c72c072c0401badc6743c98d6ff4bf64c91cc21[m
+Merge: e41d726 b1f1b13
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Thu Aug 4 11:22:19 2022 -0300
+
+    Merge branch 'main' of https://github.com/isaacgoncod/C-Lenguage
+
+[33mcommit e41d726ebe19b11acf3877bc58f6e46dc9e9535d[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Thu Aug 4 09:45:15 2022 -0300
+
+    presencial
+
+[33mcommit b1f1b1363f1809523f8786993ca9ebfa6de26be3[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Wed Aug 3 21:34:38 2022 -0300
+
+    casa
+
+[33mcommit 7109f76186b3afa5fa01ae9e0c7f1b3e2a7febdf[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 2 22:27:17 2022 -0300
+
+    casa
+
+[33mcommit dab011ecc3bc01612ce115573032e61dd999dd8e[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 2 11:24:02 2022 -0300
+
+    presencial
+
+[33mcommit 6abfe3ae74be7257c8be4fdf5080308f1162824f[m
+Merge: ac93c9b 21ff7f9
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 2 11:06:14 2022 -0300
+
+    Merge pull request #1 from isaacgoncod/presencial
+    
+    presencial
+
+[33mcommit 21ff7f9baec44b319f67586e0e151bbbd6c3ed53[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 2 11:00:52 2022 -0300
+
+    presencial
+
+[33mcommit ac93c9b4383b1fef62e00ad7f968cd7d4ed170c5[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Tue Aug 2 00:01:23 2022 -0300
+
+    Exercício
+
+[33mcommit 58735b08849f4f780488bca95f70e65838bee151[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Mon Aug 1 23:58:21 2022 -0300
+
+    Exercícios
+
+[33mcommit 2c2095507fd2b253d7cf57e25255b48d642c08df[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Sat Jul 30 14:19:04 2022 -0300
+
+    Update README.md
+
+[33mcommit c192e2df6d7691a82c9622f537b90c9342828395[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Jul 29 18:13:17 2022 -0300
+
+    Inicialização do curso
+    
+    Aula 1
+
+[33mcommit 2c3d3d9a3e4499e71e8fb8b11de09bf0e1dcba97[m
+Author: Isaac Cordeiro Gonçalves <110203041+isaacgoncod@users.noreply.github.com>
+Date:   Fri Jul 29 17:58:30 2022 -0300
+
+    Initial commit
