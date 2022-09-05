@@ -1,21 +1,35 @@
-#include <stdio.h>
-#include <locale.h>
-#include <string.h>
+#include<stdio.h>
+#include<locale.h>
+#include<time.h>
 
-void main(){
-	setlocale(LC_ALL, "Portuguese");
+int main(){
+	setlocale(LC_ALL,"");
+	srand(time(NULL));
+	int v[50];
+	int i, num, onde = -1;
 	
-	int i, nums[10];
-	
-	for(i = 0; i < 10; i++){
-		printf("Digíte um valor : ");
-		scanf("%d", &nums[i]);
-		
+	//Gerar os números aleatórios para o vetor
+	for(i = 0; i < 50; i++){
+		v[i] = rand() % 100;
+		printf("[%d]%d\n",i,v[i]);
 	}
 	
-//	for(i = 0; i < 10; i++){	
-		printf("Informe qual a casa, para saber qual número a representa : ");
-		scanf("%d", &i)	;
-		printf("O valor [%d] está na casa [%d]\n", nums[i], i);
-//	}
+	//Entrada
+	printf("Digite um número inteiro\n");
+	scanf("%d",&num);
+	
+	//Processamento
+	for(i = 0; i < 50; i++){
+		if(v[i] == num){
+			onde = i;
+			break;
+		}
+	}
+	
+	//Saída
+	if(onde != -1) printf("Encontrei na posição %d e na %d", onde, onde > onde);
+	else printf("Não encontrei");
+	
+	//Desafio 1 (Mostrar todas as posições em que o número for encontrado caso seja repetido)
+	//Desafio 2 (Não permitir números repetidos)
 }

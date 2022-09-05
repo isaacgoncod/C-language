@@ -4,22 +4,23 @@
 void main(){
 	setlocale(LC_ALL, "Portuguese");
 	
-   	int valor[10], i, aux;
+   	int valor[10], i, j, aux;
    	
-   	while (i < 10 ){
-   		printf("Digíte o %dº valor : ", i + 1);
-   		scanf("%d", &valor[i]);
-   		i++;
-	   }
 	   
-	for(i = 0; i < 10; i++)   {
-		if(valor[i] < valor[  - i] ){
-			aux = valor[i];
-			valor[i] = valor[  - i];
-			valor[ - i] = aux;
-		}
-		
+	for(i = 0; i < 10; i++){
+		printf("Digíte o %dº valor : ", i + 1);
+   		scanf("%d", &valor[i]);
 	}
+		for(i = 0; i < 10;i++){
+			for(j = 0; j < 10;j++){
+				if(valor[i] < valor[j]){
+					aux = valor[i];
+					valor[i] = valor[j];
+					valor[j] = aux;
+					
+				}
+			}
+		}
 	
 	for(i = 0; i < 10; i++) {
 		printf("%d ", valor[i])	;
