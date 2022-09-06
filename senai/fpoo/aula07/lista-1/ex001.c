@@ -30,6 +30,6 @@ void main(){
 		
 	for(i = 0; i < 5; i++){
 		salarios[i] = salarios[i] + salarios[i] * percentual / 100;
-		printf("%s novo salário  R$ %.2f \n", nomes[i], salarios[i]);
+		printf("%s, novo salário : R$ %.2f \n", nomes[i], salarios[i]);
 	}
 }
