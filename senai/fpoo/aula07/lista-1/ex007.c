@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <locale.h>
 #include <string.h>
@@ -8,7 +9,7 @@ void main()
 
     int nums[5], i,j, aux = 0;
 
-    printf("DigÃ­te 5 nÃºmeros inteiros: ");
+    printf("Digíte 5 números inteiros: ");
 
     for(i = 0; i < 5; i++){
         scanf("%d", &nums[i]);
