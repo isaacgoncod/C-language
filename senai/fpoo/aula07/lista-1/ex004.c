@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <locale.h>
-#include <string.h>
 
 void main()
 {
@@ -10,21 +9,24 @@ void main()
     float eleitores[5], votos[5];
     int i;
 
+    printf("Digíte o nome de 5 cidades :\n ");
     for(i = 0; i < 5; i++)
     {
-        printf("Digíte a %do cidade : ", i + 1);
         gets(cidade[i]);
     }
+    
+	printf("Digíte o total de eleitores das 5 cidades :\n ");
     for(i = 0; i < 5; i++)
     {
-        printf("Digíte o total de eleitores da %da cidade : ", i + 1);
         scanf("%f", &eleitores[i]);
     }
+    
+    printf("Digíte o total de votos apurados das 5 cidades :\n ");
     for(i = 0; i < 5; i++)
     {
-        printf("Digíte o total de votos apurados da %da cidade : ", i + 1);
         scanf("%f", &votos[i]);
     }
+    
     for(i = 0; i < 5; i++)
     {
         votos[i] = votos[i] / eleitores[i] * 100;

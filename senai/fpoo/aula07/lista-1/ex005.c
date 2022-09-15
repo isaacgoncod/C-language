@@ -10,16 +10,16 @@ void main()
     float preco[10], perc[10], npreco[10];
     int i;
 
+    printf("Digíte o nome de 10 mercadorias:\n ");
     for(i = 1; i <=10; i++){
-        printf("Digíte a %do mercadoria: ", i);
         scanf("%s", &mercadoria[i]);
     }
+    printf("Digíte o preço das 10 mercadorias respectivamente:\n");
     for(i = 1; i <=10; i++){
-        printf("Digíte o preço da %do mercadoria: R$ ", i);
         scanf("%f", &preco[i]);
     }
+    printf("Digíte o índice percentual(%) de cada mercadoria respectivamente:\n ");
     for(i = 1; i <=10; i++){
-        printf("Digíte o índice percentual(%) da %do mercadoria: ", i);
         scanf("%f", &perc[i]);
     }
     for(i = 1; i <=10; i++){

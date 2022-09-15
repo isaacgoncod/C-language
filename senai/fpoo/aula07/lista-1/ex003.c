@@ -4,19 +4,21 @@
 void main(){
 	setlocale(LC_ALL, "Portuguese");
 	
-	char mercadoria[5][30];
+	char mercadoria[5][15];
 	float preco[5];
 	int i, p;
 	
+	printf("Digíte o nome de 5 mercadorias :\n");
 	for(i = 0; i < 5; i++){
-		printf("Digíte a %do mercadoria : ", i + 1);
 		gets(mercadoria[i]);
 	}
+	
+	printf("Digíte o preço da %do mercadoria :\n");
 	for(i = 0; i < 5; i++){
-		printf("Digíte o preço da %do mercadoria : R$ ", i + 1);
 		scanf("%f",&preco[i]);
 	}
-	for(i = 0; i < 5; i++){
+	
+ for(i = 0; i < 5; i++){
 		if(preco[i] < 1000){
 			preco[i] = preco[i] + preco[i] * 5 / 100;
 			printf("A mercadoria %s, terá um aumento de 5%% : R$ %.2f\n",mercadoria[i], preco[i]);
