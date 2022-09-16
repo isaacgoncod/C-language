@@ -7,7 +7,7 @@ void main()
     setlocale(LC_ALL, "Portuguese");
 	srand(time(NULL));
 	
-    int matriz[3][3], i, j;
+    int matriz[3][3], i, j, maior = 0, linha = 0, coluna = 0;
     
     for(i = 0; i < 3; i++){
     	for(j = 0; j < 3; j++){
@@ -17,7 +17,13 @@ void main()
 	for(i = 0; i < 3; i++){
     	for(j = 0; j < 3; j++){
     		printf("[%d]", matriz[i][j]);
+    		if(maior < matriz[i][j]){
+    			maior = matriz[i][j];
+    			linha = i;
+    			coluna = j;
+			}
 		}
 		printf("\n");
 	}
+	printf("O maior número da matriz é: %d\nSua posição é: [%d,%d]", maior,linha + 1, coluna + 1);
 }
