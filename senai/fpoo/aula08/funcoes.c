@@ -2,11 +2,17 @@
 #include <locale.h>
 #include <stdbool.h>
 
-int binario(int n1, int n2){
+int binario(int dec){
+	int num;
 	
-	printf("Digite um número decimal: ");
-	scanf("%d", &n1);
-	
+	if(dec/2!=0){
+		num = dec/2;
+		binario(num);
+		printf("%d",dec%2);
+	}else{
+		printf("%d",dec%2);
+	}
+	return 0;
 }
 float celsius(float cel){
 	scanf("%f", &cel);
@@ -28,17 +34,42 @@ float fahrenheit(float fah){
 	printf("-------------------------------------------------\n");
 	
 }
-
+bool numero(int num, int num2){
+	int tf;
+	
+	if(num==num2){
+		tf = 1;
+	}else{
+		tf = 0;
+	}
+	return tf;	
+}
 void main(float argc, char*argv[]){
 	setlocale(LC_ALL, "Portuguese");
 	
 	float fah, cel;
+	int dec,num,num2;
 	
-	printf("Digite a temperatura em Celsius : ");
+	printf("Digite um número decimal: ");
+	scanf("%d", &dec);
+	printf("----------------PROCESSANDO----------------------\n");
+	binario(dec);
+	
+	printf("\nDigite a temperatura em Celsius : ");
 	fahrenheit(fah);
 	
 	printf("Digite a temperatura em Fahrenheit: ");
 	celsius(cel);
+	 
+	
+	printf("Digite um numero: ");
+	scanf("%d",&num);
+	
+	printf("Digite outro numero: ");
+	scanf("%d",&num2);
+	
+	printf("1 = Numeros iguais\n0 = Numeros diferentes\n");
+	printf("%d",numero(num,num2));
 	
 }
 
