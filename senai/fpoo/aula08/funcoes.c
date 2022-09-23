@@ -35,20 +35,26 @@ float fahrenheit(float fah){
 	
 }
 bool numero(int num, int num2){
-	int tf;
 	
 	if(num==num2){
-		tf = 1;
+		return true;
 	}else{
-		tf = 0;
+		return false;
 	}
-	return tf;	
 }
+int maior(int n1, int n2){
+	if(n1 > n2){
+		return n1;
+	}else{
+		return n2;
+	}
+}
+
 void main(float argc, char*argv[]){
 	setlocale(LC_ALL, "Portuguese");
 	
 	float fah, cel;
-	int dec,num,num2;
+	int dec,num,num2, n1, n2;
 	
 	printf("Digite um número decimal: ");
 	scanf("%d", &dec);
@@ -69,7 +75,11 @@ void main(float argc, char*argv[]){
 	scanf("%d",&num2);
 	
 	printf("1 = Numeros iguais\n0 = Numeros diferentes\n");
-	printf("%d",numero(num,num2));
+	printf("%d\n",numero(num,num2));
+
+	printf("Digíte dois números inteiros: ");
+	scanf("%d%d", &n1, &n2);
+	printf("O maior número é o %d\n", maior(n1,n2));
 	
 }
 
