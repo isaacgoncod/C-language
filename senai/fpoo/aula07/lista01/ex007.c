@@ -25,5 +25,5 @@ void main()
 		}
 		printf("\n");
 	}
-	printf("O maior número da matriz é: %d\nSua posição é: [%d,%d]", maior,linha + 1, coluna + 1);
+	printf("O maior nï¿½mero da matriz ï¿½: %d\nSua posiï¿½ï¿½o ï¿½: [%d,%d]\n", maior,linha + 1, coluna + 1);
 }
