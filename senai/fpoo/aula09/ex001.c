@@ -12,7 +12,7 @@ void sorteio(char nomes[10][30]){
 	for(i = 0; i < 10; i++){
 		gets(nomes[i]);	
 	}
-		sorteado = rand() % 10;
+	sorteado = rand() % 10;
 	printf("O sorteado foi : %s", nomes[sorteado]);
 	
 }
