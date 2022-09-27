@@ -2,10 +2,10 @@
 #include <locale.h>
 #include <time.h>
 
-void sorteio(char nomes[10][30]){
+void sorteio(){
 	srand(time(NULL));
 	
-	int i, sorteado;
+	int i, sorteado, nomes[10][30];
 	
 	printf("Digíte 10 nomes para sortear : \n");
 	
@@ -21,7 +21,7 @@ void main(){
 	
 	char nomes[10][30];
 	
-	sorteio(nomes[10]);
+	sorteio();
 }
 
 

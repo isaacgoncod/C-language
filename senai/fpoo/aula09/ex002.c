@@ -13,7 +13,7 @@ void sorteio(char nomes[10][30]){
 		gets(nomes[i]);	
 	}
 	
-	printf("Digíte quantos nomes para sortear : ");
+	printf("Digíte quantos nomes serão sorteados : ");
 	scanf("%d", &num);
 	
 	for(i = 0; i < num; i++){

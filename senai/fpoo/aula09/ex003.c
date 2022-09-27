@@ -2,30 +2,28 @@
 #include <locale.h>
 #include <time.h>
 
-void sorteio(char times[40][30]){
+void sorteio(char times[10][30]){
 	srand(time(NULL));
 	
 	int i, sorteado, num;
 	
-	printf("Digíte 40 times para sortes os grupos : \n");
-	for(i = 0; i < 40; i++){
+	printf("Digíte 10 times para sortear os grupos : \n");
+	for(i = 0; i < 10; i++){
 		gets(times[i]);	
 	}
 	
 	printf("Digíte quantos times cada grupo irá ter : ");
 	scanf("%d", &num);
 	
-	for(i = 0; i < num; i++){
-		sorteado	= rand() % 10;
-		printf("O sorteado foi : %s\n", nomes[sorteado]);
-	}
+		sorteado = rand() % num;
+		printf("O sorteado foi : %s\n", times[sorteado]);
 	
 }
 void main(){
 	setlocale(LC_ALL, "Portuguese");
 	
-	char times[40][30];
+	char times[10][30];
 	
-	sorteio(times[40]);
+	sorteio(times[10]);
 }
 
