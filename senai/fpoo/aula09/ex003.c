@@ -15,8 +15,10 @@ void sorteio(char times[10][30]){
 	printf("Digíte quantos times cada grupo irá ter : ");
 	scanf("%d", &num);
 	
-		sorteado = rand() % num;
+	for(i = 0; i < num; i++){
+		sorteado = rand() % 10;
 		printf("O sorteado foi : %s\n", times[sorteado]);
+	}
 	
 }
 void main(){
