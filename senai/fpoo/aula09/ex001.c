@@ -19,7 +19,6 @@ void sorteio(){
 void main(){
 	setlocale(LC_ALL, "Portuguese");
 	
-	char nomes[10][30];
 	
 	sorteio();
 }

@@ -2,13 +2,13 @@
 #include <locale.h>
 #include <time.h>
 
-void sorteio(char times[10][30]){
+void sorteio(char times[40][30]){
 	srand(time(NULL));
 	
 	int i, sorteado, num;
 	
-	printf("Digíte 10 times para sortear os grupos : \n");
-	for(i = 0; i < 10; i++){
+	printf("Digíte 40 times para sortear os grupos : \n");
+	for(i = 0; i < 40; i++){
 		gets(times[i]);	
 	}
 	
