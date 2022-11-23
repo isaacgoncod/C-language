@@ -9,7 +9,7 @@ void main()
     int idade[5];
     int i = 0;
 
-    printf("Digíte o nome e idade de 5 pessoas respectivamente: ");
+    printf("Digite o nome e idade de 5 pessoas respectivamente: ");
     for(i = 0; i < 5; i++)
     {
         scanf("%s%d", &nome[i], &idade[i]);
@@ -20,7 +20,7 @@ void main()
     {
         if(idade[i] < 10)
         {
-            printf("%s\t%d\tCriança\n", nome[i], idade[i]);
+            printf("%s\t%d\tCrianca\n", nome[i], idade[i]);
 
         }
         else if(idade[i] >= 10 && idade[i] < 20)
