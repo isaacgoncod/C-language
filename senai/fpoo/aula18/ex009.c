@@ -11,27 +11,22 @@ float inss(float salario)
     if(salario <= 1212)
     {
         return  salario * 7.5 / 100;
-
     }
     else if(salario > 1212 && salario <= 2427)
     {
         return  salario * 9 / 100;
-
     }
     else if(salario > 2427 && salario <= 3614)
     {
         return  salario * 12 / 100;
-
     }
     else if(salario > 3614 && salario <= 7087)
     {
         return salario * 14 / 100;
-
     }
     else
     {
         return salario * 14 / 100;
-
     }
 }
 float irrf(float salario)
@@ -39,32 +34,24 @@ float irrf(float salario)
     if (salario <= 1903.00)
     {
         return  0;
-
     }
     else if (salario > 1903.00 && salario <= 2826.00)
     {
         return    salario * 7.5 / 100 - 142.80;
-
     }
     else if (salario > 2826.00 && salario <= 3751.00)
     {
         return  salario * 15 / 100 - 354.80;
-
     }
     else if (salario > 3751.00 && salario <= 4664.00)
     {
         return  salario * 22.5 / 100 - 363.13;
-
-
     }
     else
     {
         return  salario * 27.5 / 100 - 689.36;
-
-
     }
 }
-
 
 void main()
 {
